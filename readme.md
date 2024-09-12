@@ -32,6 +32,7 @@ module "cross_regional_ilb" {
   forwarding_rule_name   = "my-ilb-forwarding-rule"
   ilb_ip_name            = "my-ilb-ip"
 }
+```
 
 ## Inputs
 
@@ -68,7 +69,7 @@ To initialize and apply the Terraform configuration, run the following commands:
 ```bash
 terraform init
 terraform apply
-
+```
 ## License
 Free to use
 
